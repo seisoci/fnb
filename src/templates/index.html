@@ -23,7 +23,7 @@
 
 <body>
 <!-- Add your site or application content here -->
-<header class="py-2 px-4">
+<header class="py-2 px-8">
     <div class="flex flex-wrap items-center">
         <div class="flex items-center mb-5 lg:mb-0">
       <span class="inline-flex justify-center items-center w-10 h-10 mr-4 bg-indigo-500 rounded">
@@ -40,152 +40,163 @@
                 </p>
             </div>
         </div>
-        <div class="w-10/12 lg:w-auto flex xs:pr-4 lg:pr-4 lg:mr-4 mr-2.5 md:mb-0 lg:ml-auto border rounded bg-white">
-            <input class="w-11/12 py-2 pl-4 pr-2 text-sm placeholder-gray-500" type="text"
+        <div class="w-10/12 lg:w-2/4 flex pr-4 lg:pr-0 lg:mr-4 mr-2.5 md:mb-0 lg:ml-auto border rounded bg-gray-100">
+            <input class="w-11/12 py-2 pl-4 pr-2 text-sm bg-gray-100" type="text"
                    placeholder="Type to search...">
-            <button class="w-1/12 pl-auto pr-auto sm:pr-2">
+            <button class="w-1/12 m-auto">
                 <svg class="inline" width="20" height="20" viewbox="0 0 20 20" fill="none"
                      xmlns="http://www.w3.org/2000/svg">
                     <path d="M18.0921 16.9083L15.0004 13.8417C16.2005 12.3453 16.7817 10.4461 16.6244 8.53441C16.4672 6.62274 15.5835 4.84398 14.155 3.56386C12.7265 2.28375 10.8619 1.59958 8.94451 1.65205C7.02711 1.70452 5.20268 2.48963 3.84636 3.84594C2.49004 5.20226 1.70493 7.02669 1.65247 8.94409C1.6 10.8615 2.28416 12.7261 3.56428 14.1546C4.84439 15.583 6.62316 16.4668 8.53482 16.624C10.4465 16.7812 12.3457 16.2001 13.8421 15L16.9087 18.0667C16.9862 18.1448 17.0784 18.2068 17.1799 18.2491C17.2815 18.2914 17.3904 18.3132 17.5004 18.3132C17.6104 18.3132 17.7193 18.2914 17.8209 18.2491C17.9224 18.2068 18.0146 18.1448 18.0921 18.0667C18.2423 17.9113 18.3262 17.7036 18.3262 17.4875C18.3262 17.2714 18.2423 17.0637 18.0921 16.9083ZM9.16708 15C8.01335 15 6.88554 14.6579 5.92625 14.0169C4.96696 13.3759 4.21929 12.4649 3.77778 11.399C3.33627 10.3331 3.22075 9.16019 3.44583 8.02863C3.67091 6.89708 4.22648 5.85767 5.04229 5.04187C5.85809 4.22606 6.89749 3.67049 8.02905 3.44541C9.1606 3.22033 10.3335 3.33585 11.3994 3.77736C12.4653 4.21887 13.3763 4.96654 14.0173 5.92583C14.6583 6.88512 15.0004 8.01293 15.0004 9.16666C15.0004 10.7138 14.3858 12.1975 13.2919 13.2914C12.1979 14.3854 10.7142 15 9.16708 15Z"
-                          fill="#382CDD"></path>
+                          fill="#000"></path>
                 </svg>
             </button>
         </div>
-        <button class="md:w-auto w-1/12 lg:ml-0 py-2 px-2 bg-white hover:bg-blue-100 rounded flex justify-center">
+        <button class="md:w-auto w-1/12 lg:ml-0 py-2 px-2 bg-white hover:bg-blue-100 rounded flex justify-center border">
             <svg class="h-4 w-4 text-indigo-500" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.99996 9.33332C8.73634 9.33332 9.33329 8.73637 9.33329 7.99999C9.33329 7.26361 8.73634 6.66666 7.99996 6.66666C7.26358 6.66666 6.66663 7.26361 6.66663 7.99999C6.66663 8.73637 7.26358 9.33332 7.99996 9.33332Z"
-                      fill="currentColor"></path>
+                      fill="#000"></path>
                 <path d="M3.33333 9.33332C4.06971 9.33332 4.66667 8.73637 4.66667 7.99999C4.66667 7.26361 4.06971 6.66666 3.33333 6.66666C2.59695 6.66666 2 7.26361 2 7.99999C2 8.73637 2.59695 9.33332 3.33333 9.33332Z"
-                      fill="currentColor"></path>
+                      fill="#000"></path>
                 <path d="M12.6667 9.33332C13.4031 9.33332 14 8.73637 14 7.99999C14 7.26361 13.4031 6.66666 12.6667 6.66666C11.9303 6.66666 11.3334 7.26361 11.3334 7.99999C11.3334 8.73637 11.9303 9.33332 12.6667 9.33332Z"
-                      fill="currentColor"></path>
+                      fill="#000"></path>
             </svg>
         </button>
     </div>
 </header>
-<section id="foodcontent" class="flex flex-wrap px-2 py-4 lg:overflow-hidden overflow-auto">
-    <div class="w-full flex flex-wrap">
-        <div class="mr-2">
-            <h4 class="text-yellow-400 font-bold">Makanan</h4>
-        </div>
-    </div>
-    <div class="w-8/12 border-b mb-2 divide-yellow-500"></div>
-    <div class="w-full md:w-8/12 lg:h-full overflow-y-auto">
-        <div class="flex flex-wrap">
-            <div class="lg:w-1/3 w-1/2 px-4 mb-4">
-                <div class="flex h-50 w-50 mb-4">
-                    <img class="w-full h-full object-cover rounded-xl"
-                         src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80"
-                         alt="" data-config-id="image5">
+<section id="foodcontent" class="flex flex-wrap px-2 pt-4 lg:overflow-hidden overflow-auto">
+    <div class="w-full md:w-8/12 lg:h-full overflow-y-auto px-4">
+        <div class="w-full flex flex-row mb-2 pb-1 px-2 overflow-auto">
+            <div class="lg:mr-12 md:mr-8 mr-4 flex flex-row self-center">
+                <div class="h-6 w-6 my-auto">
+                    <img src="images/content/top_rated.svg">
                 </div>
-                <h5 class="font-bold font-heading">Lorem ipsum dolor</h5>
-                <span class="inline-block text-xs text-gray-500">Ipsum Lorem</span>
+                <a href="#" class="font-semibold pl-2 hover:text-yellow-600 w-max">Best Seller</a>
             </div>
-            <div class="lg:w-1/3 w-1/2 px-4 mb-4">
-                <div class="flex h-50 w-50 mb-4">
-                    <img class="w-full h-full object-cover rounded-xl"
-                         src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80"
-                         alt="" data-config-id="image5">
+            <div class="lg:mr-12 md:mr-8 mr-4 flex flex-row self-center">
+                <div class="h-6 w-6 my-auto inline">
+                    <img src="images/content/favorites.svg">
                 </div>
-                <h5 class="font-bold font-heading">Lorem ipsum dolor</h5>
-                <span class="inline-block text-xs text-gray-500">Ipsum Lorem</span>
+                <a href="#" class="font-semibold pl-2 hover:text-yellow-600 w-max">Top Rated</a>
             </div>
-            <div class="lg:w-1/3 w-1/2 px-4 mb-4">
-                <div class="flex h-50 w-50 mb-4">
-                    <img class="w-full h-full object-cover rounded-xl"
-                         src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80"
-                         alt="" data-config-id="image5">
+            <div class="lg:mr-12 md:mr-8 mr-4 flex flex-row self-center">
+                <div class="h-6 w-6 my-auto inline">
+                    <img src="images/content/dish.svg">
                 </div>
-                <h5 class="font-bold font-heading">Lorem ipsum dolor</h5>
-                <span class="inline-block text-xs text-gray-500">Ipsum Lorem</span>
+                <a href="#" class="font-semibold pl-2 hover:text-yellow-600 w-max">Makanan</a>
             </div>
-            <div class="lg:w-1/3 w-1/2 px-4 mb-4">
-                <div class="flex h-50 w-50 mb-4">
-                    <img class="w-full h-full object-cover rounded-xl"
-                         src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80"
-                         alt="" data-config-id="image5">
+            <div class="lg:mr-12 md:mr-8 mr-4 flex flex-row self-center">
+                <div class="h-6 w-6 my-auto inline">
+                    <img src="images/content/drink.svg">
                 </div>
-                <h5 class="font-bold font-heading">Lorem ipsum dolor</h5>
-                <span class="inline-block text-xs text-gray-500">Ipsum Lorem</span>
-            </div>
-            <div class="lg:w-1/3 w-1/2 px-4 mb-4">
-                <div class="flex h-50 w-50 mb-4">
-                    <img class="w-full h-full object-cover rounded-xl"
-                         src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80"
-                         alt="" data-config-id="image5">
-                </div>
-                <h5 class="font-bold font-heading">Lorem ipsum dolor</h5>
-                <span class="inline-block text-xs text-gray-500">Ipsum Lorem</span>
-            </div>
-            <div class="lg:w-1/3 w-1/2 px-4 mb-4">
-                <div class="flex h-50 w-50 mb-4">
-                    <img class="w-full h-full object-cover rounded-xl"
-                         src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80"
-                         alt="" data-config-id="image5">
-                </div>
-                <h5 class="font-bold font-heading">Lorem ipsum dolor</h5>
-                <span class="inline-block text-xs text-gray-500">Ipsum Lorem</span>
-            </div>
-            <div class="lg:w-1/3 w-1/2 px-4 mb-4">
-                <div class="flex h-50 w-50 mb-4">
-                    <img class="w-full h-full object-cover rounded-xl"
-                         src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80"
-                         alt="" data-config-id="image5">
-                </div>
-                <h5 class="font-bold font-heading">Lorem ipsum dolor</h5>
-                <span class="inline-block text-xs text-gray-500">Ipsum Lorem</span>
+                <a href="#" class="font-semibold pl-2 hover:text-yellow-600 w-max">Minuman</a>
             </div>
         </div>
+        <div id="itemsFood" class="flex flex-wrap">
+            <div class="lg:w-1/3 w-1/2 px-2 mb-4">
+                <div class="flex flex-col h-50 w-50 mb-2 cursor-pointer relative animate-pulse add_to_card space-y-4">
+                    <div class="w-full h-32 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-1/2 px-2 mb-4">
+                <div class="flex flex-col h-50 w-50 mb-2 cursor-pointer relative animate-pulse add_to_card space-y-4">
+                    <div class="w-full h-32 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-1/2 px-2 mb-4">
+                <div class="flex flex-col h-50 w-50 mb-2 cursor-pointer relative animate-pulse add_to_card space-y-4">
+                    <div class="w-full h-32 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-1/2 px-2 mb-4">
+                <div class="flex flex-col h-50 w-50 mb-2 cursor-pointer relative animate-pulse add_to_card space-y-4">
+                    <div class="w-full h-32 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-1/2 px-2 mb-4">
+                <div class="flex flex-col h-50 w-50 mb-2 cursor-pointer relative animate-pulse add_to_card space-y-4">
+                    <div class="w-full h-32 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-1/2 px-2 mb-4">
+                <div class="flex flex-col h-50 w-50 mb-2 cursor-pointer relative animate-pulse add_to_card space-y-4">
+                    <div class="w-full h-32 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-1/2 px-2 mb-4">
+                <div class="flex flex-col h-50 w-50 mb-2 cursor-pointer relative animate-pulse add_to_card space-y-4">
+                    <div class="w-full h-32 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-1/2 px-2 mb-4">
+                <div class="flex flex-col h-50 w-50 mb-2 cursor-pointer relative animate-pulse add_to_card space-y-4">
+                    <div class="w-full h-32 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-1/2 px-2 mb-4">
+                <div class="flex flex-col h-50 w-50 mb-2 cursor-pointer relative animate-pulse add_to_card space-y-4">
+                    <div class="w-full h-32 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                    <div class="w-full h-4 bg-gray-200 rounded"></div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="w-full md:w-4/12 lg:h-full overflow-y-auto">
+    <div class="w-full md:w-4/12 lg:h-full overflow-hidden lg:overflow-y-auto md:overflow-y-auto">
         <div class="px-4 bg-white">
-            <h2 class="mb-4 font-bold font-heading" data-config-id="header">Shopping Cart</h2>
-            <div class="mb-4 pb-12 border-b">
-                <div class="flex mb-8 flex-wrap items-center justify-between">
-                    <div class="w-full mb-2">
+            <h2 id="cart" class="mb-4 font-bold font-heading">Order Food</h2>
+            <div class="mb-2 pb-12 border-b">
+                <div class="flex flex-wrap items-center justify-between">
+                    <div class="w-full mb-1">
                         <div class="flex flex-wrap w-full rounded-xl">
-                            <div class="w-2/5 lg:mb-0">
-                                <div class="flex h-28 items-center justify-center mb-4 lg:mb-0">
-                                    <img class="w-full h-full object-cover rounded-xl" src="images/content/coffe.jpg">
-                                </div>
-                            </div>
-                            <div class="w-3/5 flex flex-col">
-                                <div class="pl-4 md:pl-4 lg:pl-4 flex flex-col">
-                                    <h6 class="mb-1 text-sm font-semibold">Kopi Panas</h6>
-                                    <span class="text-xs text-gray-500">Anti Mainstream</span>
-                                    <span class="text-xs font-bold text-black lg:text-base">Rp. 50.000</span>
-                                    <div class="w-full flex flex-row mt-2 justify-start">
-                                        <div class="mr-2 ">
-                                            <div class="inline-flex items-center px-2 font-semibold text-gray-500 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md">
-                                                <button class="py-2 hover:text-gray-700">
-                                                    <svg width="10" height="10" viewbox="0 0 12 2" fill="none"
-                                                         xmlns="http://www.w3.org/2000/svg">
-                                                        <g opacity="0.35">
-                                                            <rect x="12" width="2" height="12"
-                                                                  transform="rotate(90 12 0)"
-                                                                  fill="currentColor"></rect>
-                                                        </g>
-                                                    </svg>
-                                                </button>
-                                                <input class="w-10 m-0 px-2 py-2 text-center border-0 focus:ring-transparent focus:outline-none rounded-md"
-                                                       placeholder="1">
-                                                <button class="py-2 hover:text-gray-700">
-                                                    <svg width="10" height="10" viewbox="0 0 12 12" fill="none"
-                                                         xmlns="http://www.w3.org/2000/svg">
-                                                        <g opacity="0.35">
-                                                            <rect x="5" width="2" height="12"
-                                                                  fill="currentColor"></rect>
-                                                            <rect x="12" y="5" width="2" height="12"
-                                                                  transform="rotate(90 12 5)"
-                                                                  fill="currentColor"></rect>
-                                                        </g>
-                                                    </svg>
-                                                </button>
-                                            </div>
+                            <div class="w-full flex flex-col border py-2 mb-2 rounded">
+                                <div class="pl-4 md:pl-4 lg:pl-4 flex flex-wrap">
+                                    <div class="w-4/6">
+                                        <h6 class="mb-1 text-sm font-semibold">Kopi</h6>
+                                        <span class="text-sm font-bold text-black">Rp. 50.000</span>
+                                    </div>
+                                    <div class="w-2/6 flex flex-row mt-2 justify-end">
+                                        <div class="mr-2 inline-flex items-center px-2 font-semibold text-gray-500 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md">
+                                            <button class="py-2 hover:text-gray-700 decrement">
+                                                <svg width="10" height="10" viewbox="0 0 12 2" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <g opacity="0.35">
+                                                        <rect x="12" width="2" height="12"
+                                                              transform="rotate(90 12 0)"
+                                                              fill="currentColor"></rect>
+                                                    </g>
+                                                </svg>
+                                            </button>
+                                            <input class="w-10 m-0 px-2 py-2 text-center border-0 focus:ring-transparent focus:outline-none rounded-md numItem"
+                                                   value="1" readonly>
+                                            <button class="py-2 hover:text-gray-700 increment">
+                                                <svg width="10" height="10" viewbox="0 0 12 12" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <g opacity="0.35">
+                                                        <rect x="5" width="2" height="12"
+                                                              fill="currentColor"></rect>
+                                                        <rect x="12" y="5" width="2" height="12"
+                                                              transform="rotate(90 12 5)"
+                                                              fill="currentColor"></rect>
+                                                    </g>
+                                                </svg>
+                                            </button>
                                         </div>
-                                        <div class="">
-                                            <a class="inline-block px-4 py-2 text-white bg-red-500 hover:bg-red-400 rounded-md font-semibold"
-                                               href="#">X</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -219,29 +230,199 @@
                     </div>
                 </div>
             </div>
-            <div class="text-right">
-                <a class="inline-block mb-4 md:mb-0 mr-6 w-full md:w-auto px-4 py-2 bg-yellow-400 hover:bg-yellow-300 text-center text-white font-bold font-semibold rounded-md transition duration-200"
-                   href="#">Checkout</a>
+            <div class="rounded-md shadow-sm text-right">
+                <a class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
+                   href="#">
+                    <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white hidden" xmlns="http://www.w3.org/2000/svg"
+                         fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor"
+                                stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor"
+                              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Order Pesanan</a>
             </div>
         </div>
     </div>
 </section>
-<div>
-
-</div>
-
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-    window.ga = function () {
-        ga.q.push(arguments);
-    };
-    ga.q = [];
-    ga.l = +new Date();
-    ga("create", "UA-XXXXX-Y", "auto");
-    ga("set", "anonymizeIp", true);
-    ga("set", "transport", "beacon");
-    ga("send", "pageview");
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/autonumeric@4.1.0"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script>
+    function increment(n) {
+        if (typeof n === 'number') {
+            return n += 1;
+
+        } else {
+            return 1;
+        }
+    }
+
+    function decrement(n) {
+        if (typeof n === 'number' && n > 1) {
+            return n -= 1;
+        } else {
+            return 1;
+        }
+    }
+
+    let btnIncrement = document.querySelectorAll(".increment");
+    let btnDecrement = document.querySelectorAll(".decrement");
+    let btnRemove = document.querySelectorAll(".remove");
+    let addToCard = document.querySelectorAll(".add_to_card");
+    let cartItem = document.getElementById("cart")
+    let body = document.querySelector("body");
+
+    fetchItems();
+
+    async function fetchItems() {
+        let response = await fetch('http://localhost/items.json', {
+            method: 'GET',
+            cache: 'no-cache',
+        });
+        if (response.status === 200) {
+            let data = await response.text();
+            let items = JSON.parse(data);
+            displayItems(items['data'], "itemsFood")
+        }
+    }
+
+    addOrRemoveItemsFromCart('add');
+
+    addOrRemoveItemsFromCart('remove');
+
+    function addOrRemoveItemsFromCart(action) {
+        // code in the previous block is still there
+
+        function takeAction(container) {
+            container.addEventListener("click", function (event) {
+                let item_id = event.target.id;
+
+                if (item_id !== "items" && item_id !== "badge") {
+                    let item = items_array.filter(function (item) {
+                        return item.id === item_id;
+                    })[0];
+
+                    let item_in_cart = cart.filter(function (item) {
+                        return item.id === item_id;
+                    })[0];
+
+                    if (item_in_cart === undefined) {
+                        cart.push(item);
+                    } else if (action === "add") {
+                        item_in_cart.count++;
+                    } else if (action === "remove") {
+                        item_in_cart.count--;
+                    }
+
+                    console.log(cart);
+                    displayItems(cart, "cart");
+                }
+            });
+        }
+    }
+
+    function displayItems(items, container) {
+        let items_container = getDiv(container);
+        items_container.innerHTML = '';
+
+        for (let i = 0; i < items.length; i++) {
+
+            let item = items[i];
+            let item_node = createNode("div");
+            item_node.setAttribute("class", "lg:w-1/3 w-1/2 px-2 mb-4");
+            if (items.length > 0) {
+                item_node.innerHTML =
+                    `
+                    <div class="flex h-40 w-full mb-2 add_to_card cursor-pointer relative">
+                        <img class="w-full h-min bg-cover rounded"
+                             src="${item.image ? item.image : ''}"
+                             alt="" data-config-id="image5">
+                        <span class="absolute top-2 right-2 bg-indigo-500 bg-opacity-90 text-white text-base font-bold rounded px-2 py-1 currency">${item.price}</span>
+                    </div>
+                    <h5 class="font-bold font-heading">${item.name}</h5>
+                    <span class="inline-block text-xs text-gray-500">${item.description}</span>
+                `;
+                appendNode(items_container, item_node);
+            }
+            new AutoNumeric.multiple('.currency', {
+                currencySymbol: "Rp. ",
+                decimalCharacter: ",",
+                digitGroupSeparator: ".",
+                allowDecimalPadding: false
+
+            });
+        }
+        addToCard = document.querySelectorAll(".add_to_card");
+
+        addToCard.forEach(function (el) {
+            el.addEventListener('click', function () {
+                let imgToDrag = this.querySelector('div > img');
+                if (imgToDrag) {
+                    let imgClone = imgToDrag.cloneNode();
+                    imgClone.classList.remove('relative');
+                    imgClone.offsetTop;
+                    imgClone.offsetLeft;
+                    imgClone.style.opacity = '0.5';
+                    imgClone.style.position = 'absolute';
+                    imgClone.style.height = '150px';
+                    imgClone.style.width = '150px';
+                    imgClone.style.zIndex = '100';
+                    imgToDrag.parentNode.appendChild(imgClone);
+                    let animeJs = anime({
+                        targets: imgClone,
+                        left: cartItem.offsetLeft + 10,
+                        top: cartItem.offsetTop + 10,
+                        width: 75,
+                        height: 75,
+                        easing: 'easeInOutExpo',
+                        duration: 1000
+                    });
+
+
+                    animeJs.finished.then(function () {
+                        detatch(imgClone)
+                    });
+
+                }
+            });
+        });
+    }
+
+    function appendNode(parent, element) {
+        parent.appendChild(element);
+    }
+
+    function getDiv(container) {
+        return document.getElementById(container);
+    }
+
+    function createNode(node) {
+        return document.createElement(node);
+    }
+
+    function detatch(elem) {
+        return elem.parentElement.removeChild(elem);
+    }
+
+    btnRemove.forEach(function (el) {
+        el.addEventListener('click', function () {
+            console.log(this.parentNode.parentNode.parentNode.parentNode.remove());
+        });
+    });
+
+    btnIncrement.forEach(function (el) {
+        el.addEventListener('click', function () {
+            this.parentNode.querySelector('input').value = increment(parseInt(this.parentNode.querySelector('input').value));
+        });
+    });
+
+    btnDecrement.forEach(function (el) {
+        el.addEventListener('click', function () {
+            this.parentNode.querySelector('input').value = decrement(parseInt(this.parentNode.querySelector('input').value));
+        });
+    });
+
+
+</script>
